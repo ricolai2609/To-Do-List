@@ -11,6 +11,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.s2012059.to_do_list.MainActivity">
 
+    <Button
+        android:id="@+id/btn_setdate"
+        android:text="Date"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
