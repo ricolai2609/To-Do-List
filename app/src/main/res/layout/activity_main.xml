@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -16,15 +16,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:weightSum="1"><![CDATA[>
-        ]]>
+        android:weightSum="1">
 
         <LinearLayout
+            android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_gravity="right"
-            android:orientation="horizontal"
-            android:id="@+id/linearLayout">
+            android:orientation="horizontal">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -44,18 +44,22 @@
                 android:text="Items" />
 
         </LinearLayout>
-        <ListView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/listView"
-            android:layout_below="@+id/linearLayout" />
 
         <LinearLayout style="@style/common_horizontal_division_line_style" />
 
+        <ListView
+            android:id="@+id/listView_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
     </LinearLayout>
-<<<<<<< HEAD
-</LinearLayout>
-=======
+
 
 </LinearLayout>
->>>>>>> origin/master
+
+
+
+
+
