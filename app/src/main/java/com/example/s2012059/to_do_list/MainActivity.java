@@ -8,6 +8,20 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     private Button btn_setDate;
+    String[] date = new String[]{
+      "Jan",
+      "FEB",
+      "MAR",
+      "APR",
+      "MAY",
+      "JUNE",
+      "JULY",
+      "AUG",
+      "SEP",
+      "OCT",
+      "NOV",
+      "DEC"
+    };
 
 
     @Override
